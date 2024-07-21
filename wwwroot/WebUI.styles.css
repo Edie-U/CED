@@ -1,0 +1,112 @@
+/* _content/WebUI/Components/Layout/MainLayout.razor.rz.scp.css */
+/* Page layout */
+.page[b-ty40ro175p] {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 3.5rem; /* Adjust based on height of top-nav */
+}
+
+.top-nav[b-ty40ro175p] {
+    display: flex;
+    background-color: #e0e0e0;
+    border-bottom: 1px solid #d6d5d5;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+main[b-ty40ro175p] {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+article.content[b-ty40ro175p] {
+    flex: 1;
+}
+
+.bottom-banner[b-ty40ro175p] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    border-top: 1px solid #d6d5d5;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.links .btn[b-ty40ro175p] {
+    margin-left: auto; /* Aligns the button to the right */
+}
+
+/* Responsive adjustments */
+@media (max-width: 640.98px) {
+    .top-nav[b-ty40ro175p], .bottom-banner[b-ty40ro175p] {
+        flex-direction: column;
+    }
+
+    .nav-link[b-ty40ro175p] {
+        margin-bottom: 0.5rem;
+    }
+}
+/* _content/WebUI/Components/Layout/NavMenu.razor.rz.scp.css */
+/* Custom CSS */
+#navbar-toggler[b-c5lx9n4elx] {
+    display: none;
+}
+
+.navbar-toggler-icon[b-c5lx9n4elx] {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #00FFFF; /* Aqua color */
+    cursor: pointer;
+}
+
+/* Adjust the size and position of the checkbox to fit the icon */
+.navbar-toggler[b-c5lx9n4elx] {
+    display: none; /* Hide the default checkbox */
+}
+
+.navbar-toggler-icon[b-c5lx9n4elx]::before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #00FFFF; /* Aqua color */
+    cursor: pointer;
+}
+
+/* Ensure the nav-scrollable is displayed correctly */
+.nav-scrollable[b-c5lx9n4elx] {
+    display: block;
+}
+
+/* Hide menu for mobile devices */
+@media (max-width: 767px) {
+    .nav-scrollable[b-c5lx9n4elx] {
+        display: none;
+    }
+
+    #navbar-toggler[b-c5lx9n4elx] {
+        display: inline-block;
+    }
+
+        #navbar-toggler:checked ~ .nav-scrollable[b-c5lx9n4elx] {
+            display: block;
+        }
+
+    /* Adjust the icon to show only on mobile */
+    .navbar-toggler-icon[b-c5lx9n4elx] {
+        display: inline-block;
+    }
+}
