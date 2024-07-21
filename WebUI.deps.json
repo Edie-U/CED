@@ -19,6 +19,7 @@
           "Microsoft.AspNetCore.Identity.UI": "8.0.6",
           "Microsoft.EntityFrameworkCore.Relational": "8.0.6",
           "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": "8.0.6",
+          "PublishSPAforGitHubPages.Build": "2.2.0",
           "CentroEspecialidadesDentales.Application.Reference": "1.0.0.0",
           "CentroEspecialidadesDentales.Domain.Reference": "1.0.0.0",
           "CentroEspecialidadesDentales.Infrastructure.Reference": "1.0.0.0",
@@ -880,6 +881,7 @@
           }
         }
       },
+      "PublishSPAforGitHubPages.Build/2.2.0": {},
       "System.Configuration.ConfigurationManager/6.0.1": {
         "dependencies": {
           "System.Security.Cryptography.ProtectedData": "6.0.0",
@@ -1713,6 +1715,13 @@
       "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
       "path": "newtonsoft.json/13.0.1",
       "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "PublishSPAforGitHubPages.Build/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nb9vCdVsZh/u1OeU2dPw/rD9mxWZYGCSrk8b3S3Y1qtXXzj4HY2W3kl4oE0XlJVgXKhbFR6RhzMBKD0ozFKk2w==",
+      "path": "publishspaforgithubpages.build/2.2.0",
+      "hashPath": "publishspaforgithubpages.build.2.2.0.nupkg.sha512"
     },
     "System.Configuration.ConfigurationManager/6.0.1": {
       "type": "package",
