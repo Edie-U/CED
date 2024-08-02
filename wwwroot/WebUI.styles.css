@@ -9,7 +9,7 @@
 
 .top-nav[b-ty40ro175p] {
     display: flex;
-    background-color: #e0e0e0;
+    background-color: #F2F2F2; /* Soft White */
     border-bottom: 1px solid #d6d5d5;
     padding: 0.5rem 1rem;
     align-items: center;
@@ -35,7 +35,7 @@ article.content[b-ty40ro175p] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f7f7f7;
+    background-color: #F2F2F2; /* Soft White */
     border-top: 1px solid #d6d5d5;
     padding: 0.5rem 1rem;
     position: fixed;
@@ -68,7 +68,7 @@ article.content[b-ty40ro175p] {
     display: inline-block;
     width: 30px;
     height: 30px;
-    background-color: #00FFFF; /* Aqua color */
+    background-color: #007ACC; /* Calming blue color */
     cursor: pointer;
 }
 
@@ -82,7 +82,7 @@ article.content[b-ty40ro175p] {
     display: inline-block;
     width: 30px;
     height: 30px;
-    background-color: #00FFFF; /* Aqua color */
+    background-color: #007ACC; /* Calming blue color */
     cursor: pointer;
 }
 
